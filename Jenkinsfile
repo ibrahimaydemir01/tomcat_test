@@ -10,12 +10,12 @@ pipeline {
         }
         stage('Push') {
             steps {
-                #sh './pushimage.sh'
+            
             }
         }
         stage('Deploy') {
             steps {
-                #sh './deploy.sh'
+              
             }
         }
     }
