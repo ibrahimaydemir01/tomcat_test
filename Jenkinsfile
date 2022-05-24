@@ -7,16 +7,6 @@ pipeline {
             steps {
                 echo "hello"
             }
-        }
-        stage('Push') {
-            steps {
-            
-            }
-        }
-        stage('Deploy') {
-            steps {
-              
-            }
-        }
+        }        
     }
 }
