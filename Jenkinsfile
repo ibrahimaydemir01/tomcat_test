@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo "helloowww ibrahimaydemir"
+                sh build.sh jar -cvf sample.war *
             }
         }        
     }
